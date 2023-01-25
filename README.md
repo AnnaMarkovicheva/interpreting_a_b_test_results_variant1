@@ -1,2 +1,19 @@
-# interpreting_a_b_test_results_variant1
-karpov courses, mini project
+# Interpreting a/b test results
+*variant1*
+
+A/B test results interpreted witn t-test, U-test, bootstrap.
+
+### RU Description
+
+Нужно понять, стали ли мы больше зарабатывать с пользователя или нет.
+
+1. Считается p-value тремя способами: t-тест, U-тест, бутстрап средних.
+
+2. Сравнивается результат между тестом и контролем по всем этим кейсам.
+
+ 
+####  Данные:
+ 
+ 1) таблица с результатами A/B-теста. В числовой колонке показаны значения выручки по каждому пользователю за период эксперимента. Описание колонок:
+     - value – значения метрики
+     - experimentVariant – Вариант теста (Control – контроль, Treatment – тест) 
